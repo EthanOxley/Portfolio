@@ -13,26 +13,34 @@
 
     <!-- Nav HTML and Bootstrap -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <p class="navbar-brand"> Ethan's Portfolio Page</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <p class="navbar-brand"> Ethan's Portfolio Page</p>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navcollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcollapse">
             <ul class="navbar-nav ml-auto ">
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.linkedin.com/in/ethan-oxley-b165341b3/">LinkedIn</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#link">Gmail</a>
+                    <a class="nav-link" href="https://mail.google.com/">Gmail</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/EthanOxley">GitHub</a>
                 </li>
             </ul>
-        </nav>
+        </div>
+    </nav>
 
     <!-- Nav HTML and Bootstrap -->
 
 
     <!-- Hero Header HTML and Bootstrap -->
 
-    <div class="container bg-light headercontainer">
-        <div class="row">
-            <div class="col">
+    <div class="container-fluid bg-light headercontainer">
+        <div class="row justify-content-center">
+            <div class="col-2">
                 <h2>About Me</h2>
             </div>
         </div>
@@ -42,13 +50,13 @@
 
     <!-- Hero HTML and Bootsrap -->
 
-    <div class="container bg-light">
+    <div class="container-fluid bg-light">
         <div class="row justify-content-between align-items-right">    
             <div class=col-3>
-                <img src="https://via.placeholder.com/300x300" alt="Picture of Ethan">
+                <img class="w-100 headshotimg" src="headshot1.jpg" alt="Picture of Ethan">
             </div>
-            <div class=col-6>
-                <p> My name is Ethan Oxley and I am an aspiring Junior Developer looking to pursue a life long passion for programming and game development.</p>
+            <div class="col-6 abouttext">
+                <p> My name is Ethan Oxley and I am an aspiring Junior Developer looking to pursue a career in game development. Currently I am enrolled in the Jackson Coding Academy studying to become a Full Stack Developer. I hope to take what I learn at the Academy and the experience I already have to create products that people will enjoy for years to come. </p>
             </div>
         </div>
     </div>
@@ -57,9 +65,9 @@
     
     <!-- Start of Portfolio Header -->
 
-    <div class="container bg-light headercontainer">
-        <div class="row">
-            <div class="col">
+    <div class="container-fluid bg-light headercontainer">
+        <div class="row justify-content-center">
+            <div class="col-3">
                 <h2>Portfolio Preview</h2>
             </div>
         </div>
@@ -69,23 +77,25 @@
 
     <!-- Start of Portfolio Display HTML and Bootstrap -->
 
-    <div class="container bg-light">
+    <div class="container-fluid bg-light">
         <div class="row justify-content-center">
             <div class="col-6">
-                <img src="https://via.placeholder.com/360x200" alt="Project Preview">
+                <img class="w-100" src="InterGreen.PNG" alt="Project Preview">
             </div>
             <div class="col-6">
-                <h2>Title</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit ea officia vel vitae odit cum unde, optio reprehenderit atque, at quidem, dolorum rem blanditiis non qui soluta quae asperiores commodi.</p>
+                <h2>InterGreen</h2>
+                <p>This is the Web Design template InterGreen created by me for the Jackson Coding Academy. The main thing I learned working on this project was the bootstrap grid system along with the bootstrap nav classes.</p>
+                <a href="https://github.com/EthanOxley/InterGreen">View on GitHub</a>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-6">
-                <img src="https://via.placeholder.com/360x200" alt="Project Preview">
+                <h2>Restaurant</h2>
+                <p>This is a Restaurant Web Design template created by me for the Jackson Coding Academy. It's main feature's are the website's inner pages (About, FAQ, ETC) and the image carousel.</p>
+                <a href="https://github.com/EthanOxley/Restaurant">View on GitHub</a>
             </div>
             <div class="col-6">
-                <h2>Title</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, aut recusandae saepe obcaecati dolore, voluptas voluptatum nihil maxime voluptate ipsa porro id est atque hic excepturi totam eveniet reprehenderit perspiciatis!</p>
+                <img class="w-100" src="Restaurant.PNG" alt="Project Preview">
             </div>
         </div>
     </div>
@@ -94,9 +104,9 @@
 
     <!-- Start of Certifications Header -->
 
-    <div class="container bg-light headercontainer">
-        <div class="row">
-            <div class="col">
+    <div class="container-fluid bg-light headercontainer">
+        <div class="row justify-content-center">
+            <div class="col-2">
                 <h2>Education</h2>
             </div>
         </div>
@@ -106,17 +116,17 @@
 
     <!-- Start of Certifications HTML and Bootstrap -->
 
-    <div class="container bg-light">
+    <div class="container-fluid bg-light">
         <div class="row">
             <div class="col">
                 <ul>
                     <li>Attended Jackson Prepatory School from 2011-2017</li>
-                    <li>Learned Web Development using HTML and CSS at Holmes Community College</li>
+                    <li>Learned Web Development using HTML, CSS, and a small amount of JS at Holmes Community College</li>
                 </ul>
             </div>
             <div class="col">
                 <ul>
-                    <li>Recieved Certification as a VR Developer from Lobaki</li>
+                    <li>Recieved Certification as a VR Developer in Unreal Engine 4 from Lobaki</li>
                     <li>Currently Enrolled in the Jackson Coding Academy</li>
                 </ul>
             </div>
@@ -124,20 +134,66 @@
     </div>
     <!-- End of Certifications HTML and Bootstrap -->
 
+    <!-- Start of Work Experience Header HTML -->
+
+    <div class="container-fluid bg-light headercontainer">
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <h2>Work Experience</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Work Experience Header HTML -->
+
+    <!-- Start of Work Experience HTML -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li>Worked a cash register at a local bowling alley for two years where I learned how to behave in a professional environment aswell as useful social skills.</li>
+                    <li>Was promoted to manager at the same local bowling alley where I worked as a manager for two years gaining valuable experience in managing staff and organization.</li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>During the Lobaki VR Academy I worked on a VR project with multiple other developers. The goal of this project was to recreate a real life warehouse working environment inside of VR. The purpose of this was to use this VR environment to help future workers with their OSHA training. Working on this project introduced me to working on a team of multiple developers and sharing work through the cloud.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- End of Work Experience HTML -->
+
     <!-- Start of Contact Information Nav -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <p class="navbar-brand"> 555-555-5555 </p>
-        <ul class="navbar-nav ml-auto ">
+        <p class="navbar-brand"> Contact @ ethanoxley133@gmail.com </p>
+        <ul class="navbar-nav ml-auto d-none d-lg-flex">
             <li class="nav-item">
                 <a class="nav-link" href="https://www.linkedin.com/in/ethan-oxley-b165341b3/">LinkedIn</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#link">Gmail</a>
+                <a class="nav-link" href="https://mail.google.com/">Gmail</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/EthanOxley">Gmail</a>
             </li>
         </ul>
     </nav>
 
     <!-- End of Contact Information Nav -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+
+
