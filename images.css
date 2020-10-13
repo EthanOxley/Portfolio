@@ -1,0 +1,40 @@
+/* Testing CSS because my brain hurts */
+
+/* .container{
+    border: solid red 3px;
+}
+
+.row {
+    border: solid blue 3px;
+}
+
+ */
+
+
+
+
+/* Nav Styling */
+
+.navcontainer{
+    border: solid black 3px;
+    height: 50px;
+}
+
+.navcol a + a{
+    padding-left: 5px;
+    border-left: solid black 2px;
+}
+
+.navtext{
+    font-size: 20px;
+}
+
+/* Nav Styling */
+
+/*   Header Styling */
+
+.headercontainer{
+    border: solid black 3px;
+}
+
+/* End of Header Styling */
